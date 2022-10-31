@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity2">
+
+    <TextView
+        android:id="@+id/tvususario"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:textSize="35dp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:textColor="#57bd39"
+        android:textSize="35dp"
+        android:text="Menu Principal" />
+
+    <Button
+        android:id="@+id/btcredito"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="creditos"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="CREDITO" />
+
+    <Button
+        android:id="@+id/btlimpiar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        android:onClick="Usuarios"
+        android:layout_height="wrap_content"
+        android:text="CLIENTE" />
+
+    <Button
+        android:id="@+id/btlimpiar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30dp"
+        android:onClick="salir"
+        android:layout_height="wrap_content"
+        android:text="SALIR" />
+
+</LinearLayout>
